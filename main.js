@@ -7,5 +7,6 @@ function newPromise() {
 }
 
 newPromise().then(function(result) {
-    alert(result)
+    document.querySelector(".root").innerHTML = result
 })
+
